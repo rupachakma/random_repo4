@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    background-color: rgb(37, 138, 158);
+    border-radius: 10px;
+    padding: 4px 200px;
+    text-align: left;
+    margin-left: 10px;
+    color:white
+}
+.sub-fieldset{
+    padding:40px 10px 10px;
+}
+.container{
+    margin: 20px auto;
+    padding: 10px 300px;
+    text-align: start;
+}
+.form-wrapper{
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+input[type=text],[type=email],[type=password]{
+    padding: 4px 90px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+#religion{
+    padding: 4px 124px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+button{
+    padding: 8px 20px;
+    background-color: rgb(27, 113, 130);
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(103, 69, 158);
+    transition: 5s;
+}
